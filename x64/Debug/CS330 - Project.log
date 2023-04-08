@@ -1,0 +1,29 @@
+﻿  C:\Users\Victor\Desktop\NEW_CS330\CS330 - Project\CS330 - Project\assets\shaders\6.light_cube.fs
+  C:\Users\Victor\Desktop\NEW_CS330\CS330 - Project\CS330 - Project\assets\shaders\6.light_cube.vs
+  C:\Users\Victor\Desktop\NEW_CS330\CS330 - Project\CS330 - Project\assets\shaders\6.multiple_lights.fs
+  C:\Users\Victor\Desktop\NEW_CS330\CS330 - Project\CS330 - Project\assets\shaders\6.multiple_lights.vs
+  C:\Users\Victor\Desktop\NEW_CS330\CS330 - Project\CS330 - Project\assets\shaders\basic_shader.frag
+  C:\Users\Victor\Desktop\NEW_CS330\CS330 - Project\CS330 - Project\assets\shaders\basic_shader.vert
+  C:\Users\Victor\Desktop\NEW_CS330\CS330 - Project\CS330 - Project\assets\textures\antislip.jpg
+  C:\Users\Victor\Desktop\NEW_CS330\CS330 - Project\CS330 - Project\assets\textures\metal.jpg
+  C:\Users\Victor\Desktop\NEW_CS330\CS330 - Project\CS330 - Project\assets\textures\metal2.jpg
+  C:\Users\Victor\Desktop\NEW_CS330\CS330 - Project\CS330 - Project\assets\textures\rubik.png
+  C:\Users\Victor\Desktop\NEW_CS330\CS330 - Project\CS330 - Project\assets\textures\rubikSide.jpg
+  C:\Users\Victor\Desktop\NEW_CS330\CS330 - Project\CS330 - Project\assets\textures\wood.jpg
+  12 File(s) copied
+  application.cpp
+C:\Users\Victor\Desktop\NEW_CS330\CS330 - Project\CS330 - Project\include\camera.h(61,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Victor\Desktop\NEW_CS330\CS330 - Project\CS330 - Project\include\Cylinder.h(34,13): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Victor\Desktop\NEW_CS330\CS330 - Project\CS330 - Project\src\application.cpp(46,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Victor\Desktop\NEW_CS330\CS330 - Project\CS330 - Project\src\application.cpp(198,51): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Victor\Desktop\NEW_CS330\CS330 - Project\CS330 - Project\src\application.cpp(199,55): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Victor\Desktop\NEW_CS330\CS330 - Project\CS330 - Project\src\application.cpp(342,10): warning C4101: 'xpos': unreferenced local variable
+C:\Users\Victor\Desktop\NEW_CS330\CS330 - Project\CS330 - Project\src\application.cpp(343,10): warning C4101: 'ypos': unreferenced local variable
+C:\Users\Victor\Desktop\NEW_CS330\CS330 - Project\CS330 - Project\src\application.cpp(360,33): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Victor\Desktop\NEW_CS330\CS330 - Project\CS330 - Project\src\application.cpp(453): warning C4715: 'Application::allTexturePaths': not all control paths return a value
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  CS330 - Project.vcxproj -> C:\Users\Victor\Desktop\NEW_CS330\CS330 - Project\x64\Debug\CS330 - Project.exe

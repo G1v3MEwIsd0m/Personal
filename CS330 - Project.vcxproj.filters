@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{66773fd5-4421-40b3-b6b2-88ff151d75a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external">
+      <UniqueIdentifier>{85ce4045-8804-451f-96d4-7521ef321251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\glad">
+      <UniqueIdentifier>{341692c1-aa8d-4fa4-b398-43db53fcb3b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\include">
+      <UniqueIdentifier>{b426dced-1edf-455d-90cf-eb972b084d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\glm">
+      <UniqueIdentifier>{94055a4d-c5ef-4f0e-a3d1-7f4919061372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\stb">
+      <UniqueIdentifier>{69980198-8412-4a99-9ee2-7b68e5d2422b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets">
+      <UniqueIdentifier>{ef3c758c-82ff-4034-b1bc-2de1acf619d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\shaders">
+      <UniqueIdentifier>{8c40016d-dbb6-4cd3-a7af-5177df7aa683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\textures">
+      <UniqueIdentifier>{5f46d1c3-4a74-4441-bce4-11a74e30af3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="external\vslibs\glad\src\glad.c">
+      <Filter>Source Files\external\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="src\application.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mesh.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shader.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\cylinder\cylinder\src\Bmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Cylinder.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="stb.cpp">
+      <Filter>Source Files\external\stb</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\application.h">
+      <Filter>Source Files\external\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\types.h">
+      <Filter>Source Files\external\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mesh.h">
+      <Filter>Source Files\external\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shader.h">
+      <Filter>Source Files\external\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\camera.h">
+      <Filter>Source Files\external\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\cylinder\cylinder\src\Bmp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Cylinder.h">
+      <Filter>Source Files\external\include</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vslibs\stb_image\stb_image.h">
+      <Filter>Source Files\external\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="stb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\basic_shader.frag">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\basic_shader.vert">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\6.light_cube.fs">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\6.light_cube.vs">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\6.multiple_lights.fs">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\6.multiple_lights.vs">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\textures\metal.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
